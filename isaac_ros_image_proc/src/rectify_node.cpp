@@ -48,7 +48,7 @@ constexpr char INPUT_TOPIC_NAME[] = "image_raw";
 
 constexpr char OUTPUT_COMPONENT_KEY[] = "image_sink/sink";
 constexpr char OUTPUT_DEFAULT_TENSOR_FORMAT[] = "nitros_image_bgr8";
-constexpr char OUTPUT_TOPIC_NAME[] = "image_rect";
+constexpr char OUTPUT_TOPIC_NAME[] = "rect/image";
 
 constexpr char OUTPUT_CAM_COMPONENT_KEY[] = "camerainfo_sink/sink";
 constexpr char OUTPUT_DEFAULT_CAM_INFO_FORMAT[] = "nitros_camera_info";
